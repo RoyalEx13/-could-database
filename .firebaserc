@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "could-database",
+    "c.d.": "could-database"
+  },
+  "targets": {}
+}

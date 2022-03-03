@@ -1,0 +1,33 @@
+{
+  "name": "labfirecloud",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "vite build",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "dev": "vite",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5",
+    "bootstrap": "^3.3.7",
+    "bootstrap-vue": "^2.17.3",
+    "firebase": "^9.4.1",
+    "mutationobserver-shim": "^0.3.7",
+    "popper.js": "^1.16.1",
+    "portal-vue": "^2.1.7",
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@vitejs/plugin-vue": "^2.2.2",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "prettier": "^2.5.1",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2",
+    "vite": "^2.8.4",
+    "vue-cli-plugin-bootstrap-vue": "~0.8.2"
+  }
+}
